@@ -1,6 +1,11 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@400;700&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
 body {
-    font-family: 'Roboto', sans-serif; 
+    font-family: 'Roboto', sans-serif;
+}
+.section {
+    padding-left: 114px;
+    width: 100%;
 }
 .container {
     max-width: 1280px;
@@ -9,6 +14,7 @@ body {
 }
 .header {
     margin-bottom: 90px;
+    padding-left: 114px;
 }
 .center-text {
     width: 50%;
@@ -43,7 +49,7 @@ body {
     padding: 10px 0px;
 }
 .c-text {
-    width: 52%;
+    width: 53%;
 }
 h1 {
     font-family: 'Roboto Slab', serif;
@@ -67,11 +73,11 @@ h3 {
 }
 .center-pic {
     position: relative;
-    padding: 11px 210px 0px 0px;
+    padding: 11px 191px 0px 0px;
 }
 .ellipse1 {
     position: absolute;
-    right: 204px;
+    right: 190px;
     bottom: -17px;
     z-index: -1;
 }
@@ -82,8 +88,8 @@ h3 {
     background-color: #1E4681;
     border-radius: 5px;
     margin: auto;
-    margin-top: 84px;
-    margin-left: 285px;
+    margin-top: 86px;
+    margin-left: 286px;
 }
 .quote p:first-child {
     font-family: 'Roboto Slab', serif;
@@ -98,7 +104,7 @@ h3 {
     font-family: 'Roboto', sans-serif; 
     color: #FFFFFF;
     text-align: right;
-    padding: 22px;
+    padding: 15px;
     padding-top: 0px;
     margin: 0px;
 }
@@ -107,6 +113,7 @@ h3 {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    box-sizing: border-box;
 }
 .bottom {
     padding: 30px 0px;
@@ -131,7 +138,7 @@ h3 {
 }
 .about-course-pic {
     position: relative;
-    padding: 85px 115px 0px 0px;
+    padding: 89px 100px 0px 0px;
 }
 .ellipse2 {
     width: 366px;
@@ -139,7 +146,7 @@ h3 {
     background-color: #EFEFEF;
     border-radius: 50%;
     position: absolute;
-    left: -20px;
+    left: -26px;
     bottom: -29px;
     z-index: -1;
 }
@@ -158,4 +165,32 @@ h3 {
     height: 203px;
     position: relative;
     box-sizing: border-box; 
+}
+@media screen and (min-width: 992px) and (max-width: 1279px) {
+    .header {
+        margin-bottom: 58px;
+        padding-left: 70px;
+    }
+    .watch-movie p {
+        font-size: 12px;
+        line-height: 115%;
+    }
+    .c-text p {
+        font-size: 14px;
+    }
+    .offer p {
+        font-size: 11px;
+    }
+    h1 {
+        font-size: 46px;
+    }
+    h2 {
+        font-size: 32px;
+    }
+    h3 {
+        font-size: 15px;
+    }
+}
+@media screen and (min-width: 320px) and (max-width: 991px) {
+    
 }
