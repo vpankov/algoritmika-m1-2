@@ -1,0 +1,218 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@400;700&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+body {
+    font-family: 'Roboto', sans-serif;
+}
+.section {
+    width: 100%;
+}
+.container {
+    max-width: 1280px;
+    margin: 0 auto;
+    margin-top: 22px;
+    padding: 0px 40px;
+    box-sizing: border-box;
+}
+.programm .container {
+    padding: 0px 5px;
+}
+.header {
+    margin-bottom: 90px;
+}
+.center-text {
+    width: 50%;
+}
+.tiny-pics {
+    width: 60%;
+    display: flex;
+    margin: 0;
+}
+.tiny-pics-items p {
+    margin: 0px 10px;
+}
+.tiny-pics :last-child {
+    margin-left: 11px;
+}
+.center-content, .tiny-pics-items, .card {
+    display: flex;
+    margin: 0;
+    justify-content: space-between;
+}
+.tiny-pics-items {
+    align-items: baseline;
+    margin-right: 25px;
+}
+.watch-movie p {
+    font-size: 20px;
+    line-height: 145%;
+}
+.c-text p {
+    font-size: 24px;
+    line-height: 150%;
+    padding: 10px 0px;
+}
+.c-text {
+    width: 53%;
+}
+h1 {
+    font-family: 'Roboto Slab', serif;
+    font-size: 80px;
+    font-weight: 700;
+    line-height: 81px;
+    margin-bottom: 0px;
+    margin-top: 35px;
+}
+h2 {
+    font-family: 'Roboto Slab', serif;
+    font-weight: bold;
+    font-size: 55px;
+    line-height: 56px;
+}
+h3 {
+    font-weight: bold;
+    font-size: 25px;
+    line-height: 130%;
+    margin: 0px;
+}
+h4 {
+    font-weight: bold;
+    font-size: 30px;
+    line-height: 130%;
+}
+.center-pic {
+    position: relative;
+    padding: 10px 125px 0px 0px;
+}
+.quote {
+    max-width: 484px;
+    min-width: 225px;
+    max-height: 200px;
+    background-color: #1E4681;
+    border-radius: 5px;
+    margin: auto;
+    margin-top: 66px;
+    margin-left: 288px;
+}
+.quote p:first-child {
+    font-family: 'Roboto Slab', serif;
+    color: #FFFFFF;
+    font-size: 25px;
+    line-height: 123%;
+    padding: 27px;
+    padding-bottom: 0px;
+    margin: 0px;
+}
+.author {
+    font-family: 'Roboto', sans-serif; 
+    color: #FFFFFF;
+    text-align: right;
+    padding: 15px;
+    padding-top: 0px;
+    margin: 0px;
+}
+.top {
+    margin-top: 128px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    box-sizing: border-box;
+}
+.bottom {
+    padding: 30px 0px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+.offer {
+    width: 50%;
+    display: flex;
+    padding: 22px 0px 0px 120px;
+}
+.tesis {
+    margin: 10px;
+}
+.tesis p {
+    margin: 0px;
+}
+.offer p {
+    font-size: 18px;
+    line-height: 130%;
+}
+.about-course-pic {
+    position: relative;
+    padding: 89px 100px 0px 0px;
+}
+.ellipse2 {
+    width: 366px;
+    height: 59px;
+    background-color: #EFEFEF;
+    border-radius: 50%;
+    position: absolute;
+    left: -26px;
+    bottom: -29px;
+    z-index: -1;
+}
+.ellipse3 {
+    width: 189px;
+    height: 32px;
+    background-color: #EFEFEF;
+    border-radius: 50%;
+    position: absolute;
+    left: 33px;
+    bottom: -16px;
+    z-index: -1;
+}
+.about-course-side-pic {
+    width: 232px;
+    height: 203px;
+    position: relative;
+    box-sizing: border-box; 
+}
+.card {
+    flex-wrap: wrap;
+    justify-content: flex-start;
+}
+.card-item {
+    max-width: 399px;
+    box-shadow: 1px 1px 15px #00000040;
+    border-radius: 30px;
+    box-sizing: border-box;
+}
+.card-item:not(:nth-child(3n)) {
+    margin-right: 36px;
+    margin-bottom: 41px;
+}
+.card-text {
+    padding-left: 20px;
+}
+@media screen and (min-width: 992px) and (max-width: 1279px) {
+    .header {
+        margin-bottom: 58px;
+        padding-left: 70px;
+    }
+    .logo {
+        width: 65px;
+   }
+    .watch-movie p {
+        font-size: 12px;
+        line-height: 115%;
+    }
+    .c-text p {
+        font-size: 14px;
+    }
+    .offer p {
+        font-size: 11px;
+    }
+    h1 {
+        font-size: 46px;
+    }
+    h2 {
+        font-size: 32px;
+    }
+    h3 {
+        font-size: 15px;
+    }
+}
+@media screen and (min-width: 320px) and (max-width: 991px) {
+    
+}
