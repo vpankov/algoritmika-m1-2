@@ -78,6 +78,7 @@ h4 {
     font-weight: bold;
     font-size: 30px;
     line-height: 130%;
+    margin: 0px;
 }
 .center-pic {
     position: relative;
@@ -168,9 +169,13 @@ h4 {
     position: relative;
     box-sizing: border-box; 
 }
+.programm h2 {
+    padding-left: 37px;
+}
 .card {
     flex-wrap: wrap;
     justify-content: flex-start;
+    margin-top: 132px;
 }
 .card-item {
     max-width: 399px;
@@ -178,12 +183,29 @@ h4 {
     border-radius: 30px;
     box-sizing: border-box;
 }
+.card-item img {
+    width: 100%;
+}
 .card-item:not(:nth-child(3n)) {
     margin-right: 36px;
     margin-bottom: 41px;
 }
+.card-item:nth-child(3n) {
+    margin-bottom: 41px;
+}
 .card-text {
     padding-left: 20px;
+    margin-top: 8px;
+    font-size: 25px;
+    line-height: 130%;
+}
+.card-text p {
+    margin-bottom: 20px;
+    margin-top: 32px;
+}
+.card-item:last-child p {
+    margin-top: 0px;
+    margin-bottom: 14px;
 }
 @media screen and (min-width: 992px) and (max-width: 1279px) {
     .header {
@@ -197,11 +219,25 @@ h4 {
         font-size: 12px;
         line-height: 115%;
     }
-    .c-text p {
+    .c-text p, .card-text p  {
         font-size: 14px;
     }
     .offer p {
         font-size: 11px;
+    }
+    .card {
+        max-width: 800px;
+        margin-top: 68px;
+    }
+    .card-item {
+        max-width: 231px;
+    }
+    .card-item:not(:nth-child(3n)) {
+        margin-right: 21px;
+        margin-bottom: 23px;
+    }
+    .card-item:nth-child(3n) {
+        margin-bottom: 23px;
     }
     h1 {
         font-size: 46px;
@@ -211,6 +247,9 @@ h4 {
     }
     h3 {
         font-size: 15px;
+    }
+    h4 {
+        font-size: 17px;
     }
 }
 @media screen and (min-width: 320px) and (max-width: 991px) {
