@@ -143,26 +143,6 @@ h4 {
     position: relative;
     padding: 89px 100px 0px 0px;
 }
-.ellipse2 {
-    width: 366px;
-    height: 59px;
-    background-color: #EFEFEF;
-    border-radius: 50%;
-    position: absolute;
-    left: -26px;
-    bottom: -29px;
-    z-index: -1;
-}
-.ellipse3 {
-    width: 189px;
-    height: 32px;
-    background-color: #EFEFEF;
-    border-radius: 50%;
-    position: absolute;
-    left: 33px;
-    bottom: -16px;
-    z-index: -1;
-}
 .about-course-side-pic {
     width: 232px;
     height: 203px;
@@ -176,6 +156,7 @@ h4 {
     flex-wrap: wrap;
     justify-content: flex-start;
     margin-top: 132px;
+    margin-bottom: 80px;
 }
 .card-item {
     max-width: 399px;
@@ -193,6 +174,9 @@ h4 {
 .card-item:nth-child(3n) {
     margin-bottom: 41px;
 }
+.card-item:hover {
+    cursor: pointer;
+}
 .card-text {
     padding-left: 20px;
     margin-top: 8px;
@@ -207,6 +191,34 @@ h4 {
     margin-top: 0px;
     margin-bottom: 14px;
 }
+.students {
+    background-color: #EFEFEF;
+}
+.students .container {
+    padding-bottom: 112px;
+}
+.students h2 {
+    padding-top: 91px;
+    margin-bottom: 70px;
+}
+.review {
+    max-width: 66%;
+    background-color: #FFFFFF;
+    box-shadow: 1px 1px 20px #00000040;
+    border-radius: 30px;
+    margin-left: 5px;
+    box-sizing: border-box;
+}
+.review p {
+    max-width: 700px;
+    padding: 40px 46px 0px 45px;
+    margin: 0px;
+    font-size: 20px;
+    line-height: 150%;
+}
+.review img {
+    margin: 34px 26px 23px 26px;
+}
 @media screen and (min-width: 992px) and (max-width: 1279px) {
     .header {
         margin-bottom: 58px;
@@ -215,12 +227,52 @@ h4 {
     .logo {
         width: 65px;
    }
+   .tiny-pics-items img {
+        max-width: 13px;
+   }
+   .center-pic img {
+        max-width: 177px;
+   }
+   .about-course-pic img {
+        max-width: 212px;
+   }
+   .about-course-side-pic img {
+        max-width: 134px;
+   }
     .watch-movie p {
         font-size: 12px;
         line-height: 115%;
     }
+    .students h2 {
+        padding-top: 53px;
+        margin-bottom: 35px;
+    }
+    .review {
+        max-width: 50%;
+    }
+    .review p {
+        max-width: 406px;
+        padding: 23px 27px 0px 26px;
+        font-size: 12px;
+    }
+    .review img {
+        margin: 23px 13px 23px 26px;
+        max-width: 331px;
+    }
     .c-text p, .card-text p  {
         font-size: 14px;
+    }
+    .quote {
+        max-width: 280px;
+        max-height: 116px; 
+    }
+    .quote p:first-child {
+        font-size: 14px;
+        line-height: 130%;
+    }
+    .author {
+        font-size: 12px;
+        line-height: 130%;
     }
     .offer p {
         font-size: 11px;
@@ -253,5 +305,74 @@ h4 {
     }
 }
 @media screen and (min-width: 320px) and (max-width: 991px) {
-    
+    .header {
+        margin-bottom: 45px;
+        padding-left: 35px;
+    }
+    .logo {
+        width: 52px;
+   }
+   .tiny-pics-items img {
+        max-width: 10px;
+   }
+   .center-pic img {
+        max-width: 142px;
+   }
+   .about-course-pic img {
+        max-width: 171px;
+   }
+   .about-course-side-pic img {
+        display: none;
+   }
+    .watch-movie p {
+        font-size: 10px;
+        line-height: 150%;
+    }
+    .students h2 {
+        padding-top: 42px;
+    }
+    .review {
+        max-width: 95%;
+    }
+    .review p {
+        font-size: 10px;
+        line-height: 150%;
+    }
+    .review img {
+        max-width: 258px;
+        min-width: 84%;
+    }
+    .c-text p, .card-text p  {
+        font-size: 12px;
+    }
+    .quote {
+        min-width: 225px;
+        min-height: 93px;
+    }
+    .quote p:first-child {
+        font-size: 11px;
+    }
+    .author, .offer p {
+        font-size: 10px;
+    }
+    .card {
+        flex-direction: column;
+        align-items: center;
+    }
+    .card-item {
+        max-width: 186px;
+        margin-bottom: 23px;
+    }
+    h1 {
+        font-size: 37px;
+    }
+    h2 {
+        font-size: 26px;
+    }
+    h3 {
+        font-size: 12px;
+    }
+    h4 {
+        font-size: 14px;
+    }
 }
