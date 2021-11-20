@@ -375,4 +375,55 @@ h4 {
     h4 {
         font-size: 14px;
     }
+    
+}
+.lessons-title {
+    padding-bottom: 89px;
+}
+.lessons-info {
+    display: flex;
+    width: 90%;
+}
+.format-one {
+    padding-right: 122px;
+    width: 20%;
+}
+.format-two {
+    padding-right: 113px;
+    width: 25%;
+}
+.format-three {
+    width: 30%;
+
+}
+.format-title {
+    font-size: 25px;
+    font-weight: bold;
+    font-style: normal;
+    line-height: 130%;
+    color: #1E4681;
+}
+.format-text {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    margin-top: 10px;
+}
+.whats-new-title {
+    font-family: Roboto Slab;
+    font-size: 55px;
+    font-style: normal;
+    font-weight: bold;
+    line-height: 101%;
+    margin-top: 179px;
+}
+.whats-new-info {
+    width: 47%;;
+}
+.list {
+    padding-left: 25px;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 150%;
 }
