@@ -210,7 +210,7 @@ h3 {
     width: 25%;
 }
 .format-three {
-    width: 25%;
+    width: 30%;
 
 }
 .format-title {
@@ -220,17 +220,27 @@ h3 {
     line-height: 130%;
     color: #1E4681;
 }
+.format-text {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    margin-top: 10px;
+}
 .whats-new-title {
     font-family: Roboto Slab;
     font-size: 55px;
     font-style: normal;
     font-weight: bold;
     line-height: 101%;
+    margin-top: 179px;
 }
+.whats-new-info {
+    width: 47%;;
 }
-ul {
+.list {
+    padding-left: 25px;
+    font-style: normal;
     font-weight: normal;
     font-size: 24px;
     line-height: 150%;
-    width: 53%;
 }
