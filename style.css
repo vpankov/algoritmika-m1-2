@@ -217,23 +217,33 @@ h4 {
     
 }
 .lessons-title {
-    padding-bottom: 89px;
+    padding-bottom: 79px;
 }
 .lessons-info {
     display: flex;
-    width: 90%;
+    width: 100%;
+    padding-left: 2px;
+    margin-bottom: 216px;
 }
 .format-one {
     padding-right: 122px;
-    width: 20%;
+    padding-top: 1px;
+    width: 223px;
+    height: 109px;
+    line-height: 130%;
 }
 .format-two {
     padding-right: 113px;
-    width: 25%;
+    width: 271px;
+    height: 109px;
+    line-height: 130%;
+    padding-top: 1px;
 }
 .format-three {
-    width: 30%;
-
+    width: 245px;
+    height: 109px;
+    line-height: 130%;
+    padding-top: 1px;
 }
 .format-title {
     font-size: 25px;
@@ -255,14 +265,73 @@ h4 {
     font-weight: bold;
     line-height: 101%;
     margin-top: 179px;
+    margin-bottom: 60px;
 }
 .whats-new-info {
-    width: 47%;;
-}
-.list {
-    padding-left: 25px;
+    width: 664px;
     font-style: normal;
     font-weight: normal;
     font-size: 24px;
     line-height: 150%;
+}
+
+li {
+    padding-left: 0px;
+}
+.list {
+    padding-left: 20px;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 150%;
+}
+.start-course {
+    background: #9DC9C8;
+    height: 780px;
+    margin: 0 auto;
+}
+.announcement {
+    width: 908px;
+    height: 66px;
+    padding-top: 179px;
+    font-weight: bold;
+    font-size: 55px;
+    line-height: 101%;
+}
+.price-text {
+    width: 170px;
+    font-weight: normal;
+    font-size: 25px;
+    line-height: 101%;
+    margin-bottom: 0px;
+    margin-top: 59px;
+}
+.price-fact {
+    width: 481px;
+    font-weight: normal;
+    font-size: 80px;
+    line-height: 101%;
+    margin-top: 0px;
+}
+.course-description { 
+    width: 658px;
+    display: flex;
+    justify-content: flex-start;
+}                     
+.heading {
+    width: 324px;
+    height: 32px;
+    font-size: 25px;
+    line-height: 101%;
+    margin-right: 42px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+.about {
+    width: 294px;
+    height: 70px;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 101%;
+    margin-top: 5px;
 }
