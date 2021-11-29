@@ -176,6 +176,8 @@ h4 {
 }
 .card-item:hover {
     cursor: pointer;
+    background-color: #f5d64d40;
+    transition: 1s;
 }
 .card-text {
     padding-left: 20px;
@@ -221,8 +223,26 @@ h4 {
 }
 @media screen and (min-width: 992px) and (max-width: 1279px) {
     .header {
-        margin-bottom: 58px;
-        padding-left: 70px;
+        margin-bottom: 52px;
+        padding-left: 62px;
+    }
+    .container {
+        padding: 0px 62px;
+    }
+    .tiny-pics :last-child {
+        margin-left: 9px;
+    }
+    .tiny-pics-items {
+        margin-right: 3px;
+    }
+    .top {
+        margin-top: 63px;
+    }
+    .bottom {
+        padding: 18px 0px;
+    }
+    .offer {
+        padding: 0px 278px 71px 0px;
     }
     .logo {
         width: 65px;
@@ -230,6 +250,17 @@ h4 {
    .tiny-pics-items img {
         max-width: 13px;
    }
+   .center-text {
+       max-width: 455px;
+   }
+   .c-text {
+        min-width: 383px;
+        width: 45%;
+   }
+   .c-text p {
+    padding: 0px;
+    margin: 21px 0px;
+}
    .center-pic img {
         max-width: 177px;
    }
@@ -241,11 +272,17 @@ h4 {
    }
     .watch-movie p {
         font-size: 12px;
-        line-height: 115%;
+        line-height: 18px;
+    }
+    .programm .container {
+        padding: 0px 41px;
+    }
+    .programm h2 {
+        padding-left: 21px;
     }
     .students h2 {
-        padding-top: 53px;
-        margin-bottom: 35px;
+        padding-top: 34px;
+        margin-bottom: 30px;
     }
     .review {
         max-width: 50%;
@@ -261,28 +298,42 @@ h4 {
     }
     .c-text p, .card-text p  {
         font-size: 14px;
+        line-height: 21px;
     }
     .quote {
         max-width: 280px;
-        max-height: 116px; 
+        max-height: 116px;
+        margin-top: 28px;
+        margin-left: 167px;
     }
     .quote p:first-child {
         font-size: 14px;
-        line-height: 130%;
+        line-height: 18px;
+        padding: 11px 20px 0px 16px;
     }
     .author {
         font-size: 12px;
-        line-height: 130%;
+        line-height: 16px;
+        padding: 1px 10px 13px 0px;
     }
     .offer p {
         font-size: 11px;
     }
     .card {
         max-width: 800px;
-        margin-top: 68px;
+        margin-top: 65px;
+        margin-bottom: 20px;
     }
     .card-item {
         max-width: 231px;
+    }
+    .card-text {
+        padding-left: 11px;
+        margin-top: 3px;
+    }
+    .card-text p {
+        margin-bottom: 10px;
+        margin-top: 18px;
     }
     .card-item:not(:nth-child(3n)) {
         margin-right: 21px;
@@ -293,9 +344,12 @@ h4 {
     }
     h1 {
         font-size: 46px;
+        line-height: 47px;
+        margin-top: 10px;
     }
     h2 {
         font-size: 32px;
+        margin-bottom: 20px;
     }
     h3 {
         font-size: 15px;
